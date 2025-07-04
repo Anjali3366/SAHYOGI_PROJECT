@@ -1,0 +1,33 @@
+{
+  "name": "backend",
+  "version": "1.0.0",
+  "description": "Sahyogi is a full-stack web platform designed to bridge the gap between local service providers (like house cleaners, decorators, and domestic helpers) and users seeking reliable help in their near…",
+  "homepage": "https://github.com/Anjali3366/SAHYOGI_PROJECT#readme",
+  "bugs": {
+    "url": "https://github.com/Anjali3366/SAHYOGI_PROJECT/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Anjali3366/SAHYOGI_PROJECT.git"
+  },
+  "license": "ISC",
+  "author": "Anjali tomar",
+  "type": "commonjs",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "dependencies": {
+    "bcryptjs": "^3.0.2",
+    "cookie-parser": "^1.4.7",
+    "cors": "^2.8.5",
+    "dotenv": "^17.0.1",
+    "express": "^5.1.0",
+    "express-validator": "^7.2.1",
+    "jsonwebtoken": "^9.0.2",
+    "mongoose": "^8.16.1",
+    "morgan": "^1.10.0",
+    "node-cron": "^4.2.0",
+    "socket.io": "^4.8.1"
+  }
+}
